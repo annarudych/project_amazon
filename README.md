@@ -5,6 +5,7 @@ Analisi completa su 6.355 prodotti Amazon, focalizzata sulla redditività delle 
 - [Descrizione](#-descrizione)
 - [Obiettivi Finali](#-obiettivi-finali)
 - [Technical Stack](#-technical-stack)
+- [Notebook di Analisi](#-notebook-di-analisi)
 - [Installazione e Uso](#️-installazione-e-uso)
 - [Struttura Dataset](#-struttura-dataset)
 - [Pipeline dei dati (ETL)](#-pipeline-dei-dati-etl)
@@ -14,6 +15,8 @@ Analisi completa su 6.355 prodotti Amazon, focalizzata sulla redditività delle 
 Questo progetto esplora un [dataset di Kaggle](https://www.kaggle.com/datasets/lazylad99/amazon-e-commerce-product-and-review-dataset?select=reviews.csv) contenente oltre 6.000 prodotti con l'obiettivo di identificare:
 * **Investimenti sicuri**: Brand e categorie con alto volume di vendite e sentiment positivo.
 * **Zone di rischio**: Segmenti di mercato con recensioni negative dove il capitale è a rischio.
+
+👉 **[Clicca qui per visualizzare l'analisi completa (Jupyter Notebook)](./amazon.ipynb)**
 
 ## 🎯 Obiettivi Finali
 * **Brand Insights**: Identificare dove investire (Sentiment +) e dove evitare (Sentiment -).
@@ -36,15 +39,21 @@ Il progetto utilizza le versioni più recenti delle librerie core per la Data Sc
     *   `matplotlib` (v3.10.7) & `seaborn` (v0.13.2) — Data Visualization.
 *   **Reporting:** Jupyter Notebook (v7.x)
 
+## 📓 Notebook di Analisi
+Il cuore del progetto è il notebook Jupyter, dove troverai la pulizia dei dati, la Sentiment Analysis e tutte le visualizzazioni grafiche:
+- 📊 **[Visualizza il Notebook: amazon.ipynb](./amazon.ipynb)**
+
 ## ⚙️ Installazione e Uso
 1. **Prerequisiti:** Assicurati di avere Python 3.12+ installato.
 2. **Clona la repository:**
    ```bash
    git clone https://github.com/annarudych/project_amazon.git
    cd project_amazon
+   ```
 3. **Installa le dipendenze**:
    ```bash
    pip install -r requirements.txt
+   ```
 
 ## 📂 Struttura Dataset
 - **Origine dati:** [Amazon Dataset su Kaggle](https://www.kaggle.com/datasets/lazylad99/amazon-e-commerce-product-and-review-dataset?select=reviews.csv)
