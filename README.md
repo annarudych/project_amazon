@@ -49,7 +49,8 @@ Il progetto utilizza le versioni più recenti delle librerie core per la Data Sc
 4. **Analisi Python**: Pulizia finale in Python, sentiment analysis e visualizzazione finale.
 
 
-## 👥 Team & Contatti
-- **Data Analyst:** [Rudych Anna]
-- **Email:** [annarudychw@gmail.com]
-- **LinkedIn:** [https://www.linkedin.com/in/annarudych/]
+## 👥 Contatti & Link
+- **Data Analyst:** Anna Rudych
+- **Email:** [annarudychw@gmail.com](mailto:annarudychw@gmail.com)
+- **LinkedIn:** [Anna Rudych](https://www.linkedin.com/in/annarudych/)
+- **GitHub:** [@annarudych](https://github.com/annarudych)
