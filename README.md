@@ -1,6 +1,15 @@
 # Amazon E-commerce Analysis 📊
 Analisi completa su 6.355 prodotti Amazon, focalizzata sulla redditività delle categorie e sulla Sentiment Analysis per guidare decisioni di investimento.
 
+## 📂 Tabella dei contenuti
+- [Descrizione](#-descrizione)
+- [Obiettivi Finali](#-obiettivi-finali)
+- [Technical Stack](#-technical-stack)
+- [Installazione e Uso](#️-installazione-e-uso)
+- [Struttura Dataset](#-struttura-dataset)
+- [Pipeline dei dati (ETL)](#-pipeline-dei-dati-etl)
+- [Contatti & Link](#-contatti--link)
+
 ## 📝 Descrizione
 Questo progetto esplora un dataset di oltre 6.000 prodotti con l'obiettivo di identificare:
 * **Investimenti sicuri**: Brand e categorie con alto volume di vendite e sentiment positivo.
