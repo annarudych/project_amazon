@@ -11,7 +11,7 @@ Analisi completa su 6.355 prodotti Amazon, focalizzata sulla redditività delle 
 - [Contatti & Link](#-contatti--link)
 
 ## 📝 Descrizione
-Questo progetto esplora un dataset di oltre 6.000 prodotti con l'obiettivo di identificare:
+Questo progetto esplora un [dataset di Kaggle](https://www.kaggle.com/datasets/lazylad99/amazon-e-commerce-product-and-review-dataset?select=reviews.csv) oltre 6.000 prodotti con l'obiettivo di identificare:
 * **Investimenti sicuri**: Brand e categorie con alto volume di vendite e sentiment positivo.
 * **Zone di rischio**: Segmenti di mercato con recensioni negative dove il capitale è a rischio.
 
@@ -47,8 +47,10 @@ Il progetto utilizza le versioni più recenti delle librerie core per la Data Sc
    pip install -r requirements.txt
 
 ## 📂 Struttura Dataset
-**File**: [products_with_reviews_clean.csv](./products_with_reviews_clean.csv)
-**Dimensioni**: 12MB | 6,355 righe × 35 colonne
+- **Origine dati:** [Amazon Dataset su Kaggle](https://www.kaggle.com/datasets/lazylad99/amazon-e-commerce-product-and-review-dataset?select=reviews.csv)
+- **I File CSV originali:** [`products.csv`](./csv/products.csv), [`reviews.csv`](./csv/reviews.csv)
+- **File utilizzato:**: [products_with_reviews_clean.csv](./products_with_reviews_clean.csv)
+- **Dimensioni:**: 12MB | 6,355 righe × 35 colonne
 
 ## 💾 Pipeline dei dati (ETL)
 1. **Storage**: I dati grezzi sono stati strutturati in un database MariaDB.
