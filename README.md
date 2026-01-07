@@ -11,7 +11,7 @@ Analisi completa su 6.355 prodotti Amazon, focalizzata sulla redditività delle 
 - [Contatti & Link](#-contatti--link)
 
 ## 📝 Descrizione
-Questo progetto esplora un [dataset di Kaggle](https://www.kaggle.com/datasets/lazylad99/amazon-e-commerce-product-and-review-dataset?select=reviews.csv) oltre 6.000 prodotti con l'obiettivo di identificare:
+Questo progetto esplora un [dataset di Kaggle](https://www.kaggle.com/datasets/lazylad99/amazon-e-commerce-product-and-review-dataset?select=reviews.csv) contenente oltre 6.000 prodotti con l'obiettivo di identificare:
 * **Investimenti sicuri**: Brand e categorie con alto volume di vendite e sentiment positivo.
 * **Zone di rischio**: Segmenti di mercato con recensioni negative dove il capitale è a rischio.
 
@@ -29,10 +29,10 @@ Il progetto utilizza le versioni più recenti delle librerie core per la Data Sc
     *   SQL (MariaDB / MySQL)
 *   **Gestione Database:** [phpMyAdmin](https://www.phpmyadmin.net) (per lo storage iniziale, la pulizia e l'export dei dati).
 *   **Qualità del Codice:** 
-    *   [Ruff](github.com) (Linter & Formatter | standard PEP 8).
+    *   [Ruff](https://github.com/astral-sh/ruff) (Linter & Formatter | standard PEP 8).
 *   **Librerie Core:**
-    *   `pandas` (v2.3.3) [[Doc](pandas.pydata.org)] — Manipolazione e analisi dei dati.
-    *   `numpy` (v2.3.5) [[Doc](numpy.org)] — Calcoli numerici.
+    *   `pandas` (v2.3.3) [[Doc](https://pandas.pydata.org)] — Manipolazione e analisi dei dati.
+    *   `numpy` (v2.3.5) [[Doc](https://numpy.org)] — Calcoli numerici.
     *   `matplotlib` (v3.10.7) & `seaborn` (v0.13.2) — Data Visualization.
 *   **Reporting:** Jupyter Notebook (v7.x)
 
@@ -49,13 +49,13 @@ Il progetto utilizza le versioni più recenti delle librerie core per la Data Sc
 ## 📂 Struttura Dataset
 - **Origine dati:** [Amazon Dataset su Kaggle](https://www.kaggle.com/datasets/lazylad99/amazon-e-commerce-product-and-review-dataset?select=reviews.csv)
 - **I File CSV originali:** [`products.csv`](./csv/products.csv), [`reviews.csv`](./csv/reviews.csv)
-- **File utilizzato:**: [products_with_reviews_clean.csv](./products_with_reviews_clean.csv)
+- **File utilizzato:**: [`products_with_reviews_clean.csv`](./products_with_reviews_clean.csv)
 - **Dimensioni:**: 12MB | 6,355 righe × 35 colonne
 
 ## 💾 Pipeline dei dati (ETL)
 1. **Storage**: I dati grezzi sono stati strutturati in un database MariaDB.
 2. **SQL Querying**: I dati sono stati filtrati e aggregati tramite query SQL via phpMyAdmin.
- * *Database Schema*: Il file SQL per ricreare la struttura del database è disponibile nella cartella principale [amazon.sql](./amazon.sql).
+   * *Database Schema*: Il file SQL per ricreare la struttura del database è disponibile nella cartella principale [`amazon.sql`](./amazon.sql).
 3. **Data Extraction:** Esportazione dei dati ottimizzati in formato CSV per l'analisi avanzata in Python.
 4. **Analisi Python**: Pulizia finale in Python, sentiment analysis e visualizzazione finale.
 
