@@ -6,6 +6,8 @@ Analisi completa su 6.355 prodotti Amazon, focalizzata sulla redditività delle 
 - [Obiettivi Finali](#-obiettivi-finali)
 - [Technical Stack](#-technical-stack)
 - [Notebook di Analisi](#-notebook-di-analisi)
+- [Insight Strategici & BI](#-insight-strategici--business-intelligence)
+- [Presentazione dei Risultati](#-presentazione-dei-risultati)
 - [Installazione e Uso](#️-installazione-e-uso)
 - [Struttura Dataset](#-struttura-dataset)
 - [Pipeline dei dati (ETL)](#-pipeline-dei-dati-etl)
@@ -37,11 +39,30 @@ Il progetto utilizza le versioni più recenti delle librerie core per la Data Sc
     *   `pandas` (v2.3.3) [[Doc](https://pandas.pydata.org)] — Manipolazione e analisi dei dati.
     *   `numpy` (v2.3.5) [[Doc](https://numpy.org)] — Calcoli numerici.
     *   `matplotlib` (v3.10.7) & `seaborn` (v0.13.2) — Data Visualization.
-*   **Reporting:** Jupyter Notebook (v7.x)
+*   **Reporting:** Jupyter Notebook (v7.x) & Canva (Business Presentation).
 
 ## 📓 Notebook di Analisi
 Il cuore del progetto è il notebook Jupyter, dove troverai la pulizia dei dati, la Sentiment Analysis e tutte le visualizzazioni grafiche:
 - 📊 **[Visualizza il Notebook: amazon.ipynb](./amazon.ipynb)**
+
+## 📈 Insight Strategici & Business Intelligence
+Oltre alla gestione tecnica, l'analisi ha estratto valore decisionale dai dati:
+
+![Analisi Prezzo vs Sentiment](preview.png)
+
+### 1. Il Paradosso del Valore (Prezzo vs Sentiment)
+L'analisi statistica ha rivelato che **un prezzo elevato non garantisce una maggiore soddisfazione**.
+* **Soglia Mediana:** 28.41€.
+* **Risultato:** Il segmento *Low Price* (0.310) mantiene un sentiment medio superiore al segmento *High Price* (0.305).
+* **Business Insight:** I prodotti Premium affrontano aspettative più severe; il successo in questa fascia richiede un controllo qualità impeccabile.
+
+### 2. Strategia di Investimento (Brand & Categorie)
+* **Safe Haven:** Brand come **Wrangler** e **Under Armour** sono i benchmark di affidabilità (alto volume + sentiment costante).
+* **Top Categories:** I segmenti **Baby** e **Boys** offrono il miglior equilibrio tra crescita e fidelizzazione del cliente.
+
+## 📊 Presentazione dei Risultati
+I risultati dell'analisi sono stati sintetizzati in una presentazione professionale rivolta a stakeholder e investitori.
+👉 **[Scarica la Presentazione Completa (PDF)](./Amazon_Analysis_Anna_Rudych.pdf)**
 
 ## ⚙️ Installazione e Uso
 1. **Prerequisiti:** Assicurati di avere Python 3.12+ installato.
