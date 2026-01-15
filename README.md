@@ -62,7 +62,8 @@ L'analisi statistica ha rivelato che **un prezzo elevato non garantisce una magg
 
 ## 📊 Presentazione dei Risultati
 I risultati dell'analisi sono stati sintetizzati in una presentazione professionale rivolta a stakeholder e investitori.
-👉 **[Scarica la Presentazione Completa (PDF)](./Amazon_Analysis_Anna_Rudych.pdf)**
+
+👉 **[La Presentazione Completa (PDF)](./Amazon_Analysis_Anna_Rudych.pdf)**
 
 ## ⚙️ Installazione e Uso
 1. **Prerequisiti:** Assicurati di avere Python 3.12+ installato.
