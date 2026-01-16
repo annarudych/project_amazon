@@ -51,10 +51,11 @@ Oltre alla gestione tecnica, l'analisi ha estratto valore decisionale dai dati:
 ![Analisi Prezzo vs Sentiment](preview.png)
 
 ### 1. Il Paradosso del Valore (Prezzo vs Sentiment)
-L'analisi statistica ha rivelato che **un prezzo elevato non garantisce una maggiore soddisfazione**.
+L'analisi statistica ha rivelato una **sostanziale uguaglianza** nella percezione del valore tra diverse fasce di prezzo, sfatando l'idea che un prezzo più alto garantisca automaticamente una maggiore soddisfazione.
+
 * **Soglia Mediana:** 28.41€.
-* **Risultato:** Il segmento *Low Price* (0.310) mantiene un sentiment medio superiore al segmento *High Price* (0.305).
-* **Business Insight:** I prodotti Premium affrontano aspettative più severe; il successo in questa fascia richiede un controllo qualità impeccabile.
+* **Risultato:** Il sentiment medio è quasi identico tra il segmento Low Price (0.310) e High Price (0.305).
+* **Business Insight:** La qualità percepita è trasversale al prezzo. In questo mercato, il successo non è dettato dal listino prezzi, ma dalla solidità del Brand e dalla coerenza del prodotto. Investire nel segmento Premium non offre un "margine di sicurezza" maggiore in termini di feedback rispetto al mass-market.
 
 ### 2. Strategia di Investimento (Brand & Categorie)
 * **Safe Haven:** Brand come **Wrangler** e **Under Armour** sono i benchmark di affidabilità (alto volume + sentiment costante).
